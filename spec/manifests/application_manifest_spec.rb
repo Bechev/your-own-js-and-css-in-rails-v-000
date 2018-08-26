@@ -1,7 +1,7 @@
 require "rails_helper"
 
 RSpec.describe do
-  
+
   it "should require the links file in the application CSS manifest" do
     expect(File.read("app/assets/stylesheets/application.css")).to include("*= require links")
   end
