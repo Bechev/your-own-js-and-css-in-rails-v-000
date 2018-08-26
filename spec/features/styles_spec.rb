@@ -5,7 +5,7 @@ feature "Page Styles" do
   #   visit '/'
   #   expect(page).to have_css("a.error", text: "Click To Hide Me")
   # end
-  # 
+  #
   # scenario "body tag has cool-background CSS class" do
   #   visit '/'
   #   expect(page).to have_css("body.cool-background")
